@@ -12,7 +12,7 @@ public class Main {
             menu.imprimirMenuCadastro();
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consume newline left-over
+            scanner.nextLine();
 
             if (opcao == 1) {
                 Tarefa1.executar(scanner, usuarios);

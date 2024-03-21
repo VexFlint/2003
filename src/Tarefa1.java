@@ -7,7 +7,7 @@ public class Tarefa1 {
         String nome = scanner.nextLine();
         System.out.print("Idade: ");
         int idade = scanner.nextInt();
-        scanner.nextLine(); // Consume newline left-over
+        scanner.nextLine();
         System.out.print("Email: ");
         String email = scanner.nextLine();
         System.out.print("Telefone: ");
